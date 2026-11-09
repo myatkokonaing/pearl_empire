@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "MINER EMPIRE"
+description = "A mobile-first Telegram-style fantasy mining empire game frontend with Mine, Missions, Friends, Wallet, and Profile screens using sample data only."
+version = "1.0.0"
+id = "artifacts/miner-empire"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21700
+
+[services.development]
+run = "pnpm --filter @workspace/miner-empire run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/miner-empire", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/miner-empire/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21700"
+BASE_PATH = "/"
