@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 640" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="512" y1="0" x2="512" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10091D"/>
+      <stop offset=".52" stop-color="#21113A"/>
+      <stop offset="1" stop-color="#10091D"/>
+    </linearGradient>
+    <linearGradient id="moon" x1="719" y1="57" x2="819" y2="157" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF5D8"/>
+      <stop offset="1" stop-color="#D9B3F3"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="483" y1="188" x2="533" y2="518" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9E79C5"/>
+      <stop offset=".42" stop-color="#49305F"/>
+      <stop offset="1" stop-color="#21142F"/>
+    </linearGradient>
+    <linearGradient id="tower" x1="508" y1="161" x2="508" y2="506" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B493D2"/>
+      <stop offset=".24" stop-color="#65457F"/>
+      <stop offset="1" stop-color="#271834"/>
+    </linearGradient>
+    <linearGradient id="crystal" x1="140" y1="366" x2="140" y2="593" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E1C6FF"/>
+      <stop offset=".24" stop-color="#A761F2"/>
+      <stop offset="1" stop-color="#542A95"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFF0BD"/>
+      <stop offset="1" stop-color="#D6A847"/>
+    </linearGradient>
+    <radialGradient id="haze" cx="0" cy="0" r="1" gradientTransform="matrix(0 300 -430 0 507 373)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#713DB0" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#713DB0" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1024v640H0z"/>
+  <path fill="url(#haze)" d="M0 0h1024v640H0z"/>
+  <circle cx="769" cy="109" r="50" fill="#D9B3F3" opacity=".13" filter="url(#glow)"/>
+  <circle cx="769" cy="109" r="36" fill="url(#moon)"/>
+  <circle cx="758" cy="96" r="28" fill="#FFF8E6" opacity=".35"/>
+  <g fill="#F5F0E8" opacity=".66">
+    <circle cx="115" cy="83" r="2"/><circle cx="218" cy="134" r="1.5"/><circle cx="373" cy="75" r="1.7"/>
+    <circle cx="621" cy="60" r="1.4"/><circle cx="907" cy="201" r="1.8"/><circle cx="858" cy="61" r="1.3"/>
+    <circle cx="294" cy="195" r="1.2"/><circle cx="90" cy="246" r="1.5"/><circle cx="682" cy="219" r="1.2"/>
+  </g>
+  <path d="M0 341 105 241l73 57 99-134 95 130 112-165 98 153 83-112 99 118 112-107 148 135v324H0V341Z" fill="#1B1029"/>
+  <path d="m0 404 129-101 88 84 118-130 95 94 111-112 97 106 88-87 124 123 79-63 95 98v224H0V404Z" fill="#251638"/>
+  <path d="M367 493V304l48-57 48 57v189H367Z" fill="url(#stone)" stroke="#C5A6E3" stroke-opacity=".36" stroke-width="3"/>
+  <path d="M373 307h84l-42-53-42 53Z" fill="#C2A2DE" stroke="#F0DDAE" stroke-opacity=".75" stroke-width="3"/>
+  <path d="M383 309v-46l32-36 33 36v46" stroke="#E8BD62" stroke-opacity=".6" stroke-width="2"/>
+  <path d="M426 493V263l43-69 43 69v230h-86Z" fill="url(#tower)" stroke="#D1B2E9" stroke-opacity=".55" stroke-width="3"/>
+  <path d="m430 266 39-78 39 78h-78Z" fill="#A688C3" stroke="#F0DDAE" stroke-opacity=".8" stroke-width="3"/>
+  <path d="M440 265v-49l29-38 29 38v49" stroke="#E8BD62" stroke-opacity=".8" stroke-width="2"/>
+  <path d="M477 493V305l52-63 52 63v188H477Z" fill="url(#stone)" stroke="#C6A6E4" stroke-opacity=".42" stroke-width="3"/>
+  <path d="m482 307 47-64 47 64h-94Z" fill="#9373B0" stroke="#E8BD62" stroke-opacity=".7" stroke-width="3"/>
+  <path d="M491 306v-45l38-51 38 51v45" stroke="#D9C5EF" stroke-opacity=".6" stroke-width="2"/>
+  <path d="M351 493v-91l37-44 38 44v91H351Zm201 0v-91l37-44 37 44v91H552Z" fill="#49325E" stroke="#B996D8" stroke-opacity=".48" stroke-width="3"/>
+  <path d="m356 402 32-49 32 49h-64Zm201 0 32-49 32 49h-64Z" fill="#8867A6" stroke="#E8BD62" stroke-opacity=".55" stroke-width="2"/>
+  <g fill="#170D24" stroke="#D9B3F3" stroke-opacity=".44" stroke-width="2">
+    <path d="M398 493v-74a14 14 0 0 1 28 0v74h-28Zm111 0V354a20 20 0 0 1 40 0v139h-40Zm102 0v-74a14 14 0 0 1 28 0v74h-28Z"/>
+  </g>
+  <g fill="#F0DDAE" opacity=".88">
+    <path d="M409 426h6v18h-6zM524 365h10v28h-10zM615 426h6v18h-6z"/>
+  </g>
+  <path d="M435 494v-25a34 34 0 0 1 68 0v25h-68Z" fill="#160B22" stroke="#E8BD62" stroke-width="3"/>
+  <path d="M448 494v-22a21 21 0 0 1 42 0v22" stroke="#A881CF" stroke-width="3"/>
+  <path d="M0 509c104-31 177-21 257 7 62 21 115 22 177 0 76-27 147-24 215 2 78 30 153 30 226 4 67-24 110-23 149-6v124H0V509Z" fill="#10091B"/>
+  <path d="M0 544c103-31 170-24 248 7 70 28 127 27 196 1 69-27 137-27 206 1 71 28 137 29 205 3 68-25 121-25 169-5" stroke="#68418C" stroke-opacity=".55" stroke-width="8"/>
+  <path d="M0 548c103-31 170-24 248 7 70 28 127 27 196 1 69-27 137-27 206 1 71 28 137 29 205 3 68-25 121-25 169-5" stroke="#B779F1" stroke-opacity=".64" stroke-width="2"/>
+  <g opacity=".4" filter="url(#glow)" fill="#A761F2" transform="translate(0 -120)">
+    <path d="m111 591 15-105 18 53 21-83 23 135h-77Zm666 19 20-115 19 59 20-91 22 147h-81Zm92-10 14-76 15 42 14-66 18 100h-61Z"/>
+  </g>
+  <g fill="url(#crystal)" stroke="#D8B8FA" stroke-opacity=".84" stroke-width="2" transform="translate(0 -120)">
+    <path d="m111 591 15-105 18 53 21-83 23 135h-77Z"/>
+    <path d="m131 591 13-68 16 29 12-56 16 95h-57Z" opacity=".86"/>
+    <path d="m777 610 20-115 19 59 20-91 22 147h-81Z"/>
+    <path d="m798 610 13-76 15 35 13-57 17 98h-58Z" opacity=".84"/>
+    <path d="m869 600 14-76 15 42 14-66 18 100h-61Z"/>
+  </g>
+  <g stroke="#F0D9FF" stroke-linecap="round" opacity=".82" transform="translate(0 -120)">
+    <path d="m126 486 4 73m35-91 7 85m643-68 5 83m30-113 5 107m68-34 5 67" stroke-width="2"/>
+  </g>
+  <g fill="#E8BD62">
+    <circle cx="331" cy="475" r="4"/><circle cx="692" cy="487" r="4"/><circle cx="463" cy="331" r="4"/>
+    <circle cx="552" cy="331" r="3"/>
+  </g>
+  <g fill="#E8BD62" opacity=".55" filter="url(#softGlow)">
+    <circle cx="331" cy="475" r="9"/><circle cx="692" cy="487" r="9"/><circle cx="463" cy="331" r="8"/>
+  </g>
+  <path d="M0 620c164-23 307-18 465-4 217 20 377 16 559-10v34H0v-20Z" fill="#0D0819" opacity=".72"/>
+</svg>
